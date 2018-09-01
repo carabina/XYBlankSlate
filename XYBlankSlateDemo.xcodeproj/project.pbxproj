@@ -10,12 +10,6 @@
 		745F32D62139271000EE66C4 /* XYBlankSlateHanlder.m in Sources */ = {isa = PBXBuildFile; fileRef = 745F32D52139271000EE66C4 /* XYBlankSlateHanlder.m */; };
 		745F32D921392A1B00EE66C4 /* XYBlankSlateGeneralHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 745F32D821392A1B00EE66C4 /* XYBlankSlateGeneralHandler.m */; };
 		745F32DF21392D7300EE66C4 /* UIScrollView+XYBlankSlate.m in Sources */ = {isa = PBXBuildFile; fileRef = 745F32DE21392D7300EE66C4 /* UIScrollView+XYBlankSlate.m */; };
-		745F32F1213956A400EE66C4 /* XYNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 745F32E2213956A300EE66C4 /* XYNetworkService.m */; };
-		745F32F2213956A400EE66C4 /* GeneralModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 745F32E7213956A400EE66C4 /* GeneralModel.m */; };
-		745F32F3213956A400EE66C4 /* GeneralViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 745F32E9213956A400EE66C4 /* GeneralViewModel.m */; };
-		745F32F4213956A400EE66C4 /* GeneralController.m in Sources */ = {isa = PBXBuildFile; fileRef = 745F32EA213956A400EE66C4 /* GeneralController.m */; };
-		745F32F5213956A400EE66C4 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 745F32ED213956A400EE66C4 /* WebViewController.m */; };
-		745F32F6213956A400EE66C4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 745F32EE213956A400EE66C4 /* MainViewController.m */; };
 		745F32F82139573F00EE66C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 745F32F72139573F00EE66C4 /* Main.storyboard */; };
 		746529DF212D48D700502457 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 746529DE212D48D700502457 /* AppDelegate.m */; };
 		746529E2212D48D700502457 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 746529E1212D48D700502457 /* ViewController.m */; };
@@ -24,6 +18,12 @@
 		746529ED212D48D900502457 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 746529EC212D48D900502457 /* main.m */; };
 		746529F7212D48D900502457 /* XYBlankSlateDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 746529F6212D48D900502457 /* XYBlankSlateDemoTests.m */; };
 		74652A02212D48D900502457 /* XYBlankSlateDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74652A01212D48D900502457 /* XYBlankSlateDemoUITests.m */; };
+		74F0480C213AA19800EB5983 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F04809213AA19800EB5983 /* WebViewController.m */; };
+		74F0480D213AA19800EB5983 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F0480A213AA19800EB5983 /* MainViewController.m */; };
+		74F04815213AA1BE00EB5983 /* GeneralViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F04811213AA1BE00EB5983 /* GeneralViewModel.m */; };
+		74F04816213AA1BE00EB5983 /* GeneralController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F04812213AA1BE00EB5983 /* GeneralController.m */; };
+		74F04817213AA1BE00EB5983 /* GeneralModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F04813213AA1BE00EB5983 /* GeneralModel.m */; };
+		74F0481A213AA1D100EB5983 /* XYNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F04819213AA1D100EB5983 /* XYNetworkService.m */; };
 		A8D1A247397129938D792E4E /* libPods-XYBlankSlateDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70FD40107A8E72EDE2BD9981 /* libPods-XYBlankSlateDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -54,18 +54,6 @@
 		745F32DD21392D7300EE66C4 /* UIScrollView+XYBlankSlate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+XYBlankSlate.h"; sourceTree = "<group>"; };
 		745F32DE21392D7300EE66C4 /* UIScrollView+XYBlankSlate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+XYBlankSlate.m"; sourceTree = "<group>"; };
 		745F32E02139321D00EE66C4 /* XYBlankSlate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYBlankSlate.h; sourceTree = "<group>"; };
-		745F32E2213956A300EE66C4 /* XYNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYNetworkService.m; sourceTree = "<group>"; };
-		745F32E3213956A300EE66C4 /* XYNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYNetworkService.h; sourceTree = "<group>"; };
-		745F32E6213956A400EE66C4 /* GeneralController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralController.h; sourceTree = "<group>"; };
-		745F32E7213956A400EE66C4 /* GeneralModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralModel.m; sourceTree = "<group>"; };
-		745F32E8213956A400EE66C4 /* GeneralViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralViewModel.h; sourceTree = "<group>"; };
-		745F32E9213956A400EE66C4 /* GeneralViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralViewModel.m; sourceTree = "<group>"; };
-		745F32EA213956A400EE66C4 /* GeneralController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralController.m; sourceTree = "<group>"; };
-		745F32EB213956A400EE66C4 /* GeneralModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralModel.h; sourceTree = "<group>"; };
-		745F32ED213956A400EE66C4 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
-		745F32EE213956A400EE66C4 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		745F32EF213956A400EE66C4 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		745F32F0213956A400EE66C4 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		745F32F72139573F00EE66C4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		746529DA212D48D700502457 /* XYBlankSlateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYBlankSlateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		746529DD212D48D700502457 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -82,6 +70,18 @@
 		746529FD212D48D900502457 /* XYBlankSlateDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYBlankSlateDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74652A01212D48D900502457 /* XYBlankSlateDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYBlankSlateDemoUITests.m; sourceTree = "<group>"; };
 		74652A03212D48D900502457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74F04808213AA19800EB5983 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		74F04809213AA19800EB5983 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		74F0480A213AA19800EB5983 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		74F0480B213AA19800EB5983 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		74F0480F213AA1BE00EB5983 /* GeneralController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralController.h; sourceTree = "<group>"; };
+		74F04810213AA1BE00EB5983 /* GeneralModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralModel.h; sourceTree = "<group>"; };
+		74F04811213AA1BE00EB5983 /* GeneralViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralViewModel.m; sourceTree = "<group>"; };
+		74F04812213AA1BE00EB5983 /* GeneralController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralController.m; sourceTree = "<group>"; };
+		74F04813213AA1BE00EB5983 /* GeneralModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralModel.m; sourceTree = "<group>"; };
+		74F04814213AA1BE00EB5983 /* GeneralViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralViewModel.h; sourceTree = "<group>"; };
+		74F04818213AA1D100EB5983 /* XYNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYNetworkService.h; sourceTree = "<group>"; };
+		74F04819213AA1D100EB5983 /* XYNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYNetworkService.m; sourceTree = "<group>"; };
 		D90E6DCB551A4B6A2C3529BD /* Pods-XYBlankSlateDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYBlankSlateDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYBlankSlateDemo/Pods-XYBlankSlateDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,48 +120,22 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		745F32E1213956A300EE66C4 /* Helper */ = {
+		745F32FC2139653F00EE66C4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				745F32E3213956A300EE66C4 /* XYNetworkService.h */,
-				745F32E2213956A300EE66C4 /* XYNetworkService.m */,
+				74F0480E213AA1AA00EB5983 /* General */,
+				74F04807213AA17700EB5983 /* Common */,
 			);
-			name = Helper;
-			path = "../../KFBlankSlate-master-2/KFBlankSlateExample/KFBlankSlateExample/Helper";
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		745F32E4213956A400EE66C4 /* Classes */ = {
+		745F32FD2139655500EE66C4 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				745F32E5213956A400EE66C4 /* General */,
-				745F32EC213956A400EE66C4 /* Common */,
+				74F04818213AA1D100EB5983 /* XYNetworkService.h */,
+				74F04819213AA1D100EB5983 /* XYNetworkService.m */,
 			);
-			name = Classes;
-			path = "../../KFBlankSlate-master-2/KFBlankSlateExample/KFBlankSlateExample/Classes";
-			sourceTree = "<group>";
-		};
-		745F32E5213956A400EE66C4 /* General */ = {
-			isa = PBXGroup;
-			children = (
-				745F32EB213956A400EE66C4 /* GeneralModel.h */,
-				745F32E7213956A400EE66C4 /* GeneralModel.m */,
-				745F32E8213956A400EE66C4 /* GeneralViewModel.h */,
-				745F32E9213956A400EE66C4 /* GeneralViewModel.m */,
-				745F32E6213956A400EE66C4 /* GeneralController.h */,
-				745F32EA213956A400EE66C4 /* GeneralController.m */,
-			);
-			path = General;
-			sourceTree = "<group>";
-		};
-		745F32EC213956A400EE66C4 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				745F32ED213956A400EE66C4 /* WebViewController.m */,
-				745F32EE213956A400EE66C4 /* MainViewController.m */,
-				745F32EF213956A400EE66C4 /* MainViewController.h */,
-				745F32F0213956A400EE66C4 /* WebViewController.h */,
-			);
-			path = Common;
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		746529D1212D48D700502457 = {
@@ -189,8 +163,8 @@
 		746529DC212D48D700502457 /* XYBlankSlateDemo */ = {
 			isa = PBXGroup;
 			children = (
-				745F32E4213956A400EE66C4 /* Classes */,
-				745F32E1213956A300EE66C4 /* Helper */,
+				745F32FD2139655500EE66C4 /* Helper */,
+				745F32FC2139653F00EE66C4 /* Classes */,
 				74652A0F212D496E00502457 /* XYBlankSlate */,
 				746529DD212D48D700502457 /* AppDelegate.h */,
 				746529DE212D48D700502457 /* AppDelegate.m */,
@@ -235,6 +209,30 @@
 				745F32D821392A1B00EE66C4 /* XYBlankSlateGeneralHandler.m */,
 			);
 			path = XYBlankSlate;
+			sourceTree = "<group>";
+		};
+		74F04807213AA17700EB5983 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				74F0480B213AA19800EB5983 /* MainViewController.h */,
+				74F0480A213AA19800EB5983 /* MainViewController.m */,
+				74F04808213AA19800EB5983 /* WebViewController.h */,
+				74F04809213AA19800EB5983 /* WebViewController.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		74F0480E213AA1AA00EB5983 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				74F0480F213AA1BE00EB5983 /* GeneralController.h */,
+				74F04812213AA1BE00EB5983 /* GeneralController.m */,
+				74F04810213AA1BE00EB5983 /* GeneralModel.h */,
+				74F04813213AA1BE00EB5983 /* GeneralModel.m */,
+				74F04814213AA1BE00EB5983 /* GeneralViewModel.h */,
+				74F04811213AA1BE00EB5983 /* GeneralViewModel.m */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 		D86970207C5FFD487504C804 /* Frameworks */ = {
@@ -416,17 +414,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				745F32F4213956A400EE66C4 /* GeneralController.m in Sources */,
-				745F32F2213956A400EE66C4 /* GeneralModel.m in Sources */,
-				745F32F5213956A400EE66C4 /* WebViewController.m in Sources */,
+				74F04816213AA1BE00EB5983 /* GeneralController.m in Sources */,
 				745F32D62139271000EE66C4 /* XYBlankSlateHanlder.m in Sources */,
-				745F32F3213956A400EE66C4 /* GeneralViewModel.m in Sources */,
+				74F0480C213AA19800EB5983 /* WebViewController.m in Sources */,
+				74F04815213AA1BE00EB5983 /* GeneralViewModel.m in Sources */,
 				746529E2212D48D700502457 /* ViewController.m in Sources */,
-				745F32F1213956A400EE66C4 /* XYNetworkService.m in Sources */,
-				745F32F6213956A400EE66C4 /* MainViewController.m in Sources */,
+				74F0480D213AA19800EB5983 /* MainViewController.m in Sources */,
 				746529ED212D48D900502457 /* main.m in Sources */,
 				745F32D921392A1B00EE66C4 /* XYBlankSlateGeneralHandler.m in Sources */,
 				746529DF212D48D700502457 /* AppDelegate.m in Sources */,
+				74F0481A213AA1D100EB5983 /* XYNetworkService.m in Sources */,
+				74F04817213AA1BE00EB5983 /* GeneralModel.m in Sources */,
 				745F32DF21392D7300EE66C4 /* UIScrollView+XYBlankSlate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
